@@ -1,10 +1,10 @@
 
-/* CSS Notes */
+/* CSS NOTES */
 /* MICHAEL DIEDRICKS PORTFOLIO
   Master Styles
   Author: Michael Diedricks (michael.diedricks@gmail.com)
 
-  === Colors ===
+  === COLORS ===
   Text gray: #76797b
   Hover colors: 
     green 1 - #a7ff83
@@ -12,7 +12,9 @@
     green 3 - #086972
     green 4 - #071a52
 
-/* Global settings */
+
+
+/* GLOBAL SETTINGS */
 :root{
   --green1: #a7ff83;
   --green2: #17b978;
@@ -36,7 +38,7 @@ body{
 }
 
 .App{
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
@@ -63,14 +65,18 @@ ion-icon:hover {
   transform-origin: center;
 }
 
-/* Base styles */
+
+
+/* BASE STYLES */
 .container{
-  margin: 0 2%;
+  margin: 0 5%;
 }
 
-/* Navigation */
+
+
+/* NAVIGATION */
 nav{
-  background-color: var(--nav-grey);
+  /* background-color: var(--nav-grey); */
 }
 
 .navbar{
@@ -80,7 +86,6 @@ nav{
   align-items: center;
   padding: 1rem 0;
 }
-
 .nav-left{
   display: flex;
   justify-self: start;
@@ -91,80 +96,133 @@ nav{
   font-size: 1.5rem;
   font-weight: bold;
   padding:0 1rem;
+  transition: all 0.5s ease-in-out;
 }
-
 .brand:hover {
   color: var(--green2)
 }
 
+/* right navigation */
 .nav-right{
   position: absolute;
   text-align: right;
   top: 100%;
   right: 0;
   transform: scale(1, 0);
-  transition: transform 400ms ease-in-out;
+  transition: transform 300ms ease-in-out;
   transform-origin: top;
 }
-
 .nav-right ul{
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 .nav-right li{
   margin-bottom: 1em;
   margin-right: 1em;
 }
-
 .nav-right a{
   font-size: 1.2rem;
   font-weight: light;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
-
+.nav-right label{
+  font-size: 1.2rem;
+  font-weight: light;
+  color: var(--link-grey);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
 .nav-right a:hover{
   color: var(--green2)
 }
-
+.nav-right label:hover{
+  color: var(--green2)
+}
 .nav-toggle{
   display: none;
 }
 .nav-toggle:checked ~ .nav-right{
   transform: scale(1,1);
 }
-
 .nav-toggle:checked ~ .nav-right a{
   opacity: 1;
-  transition: opacity 250ms ease-in-out 200ms;
+  transition: opacity 200ms ease-in-out 200ms;
+}
+.nav-toggle:checked ~ .nav-right label{
+  opacity: 1;
+  transition: opacity 200ms ease-in-out 200ms;
 }
 
-/* Page structure */
+
+/* PAGE STRUCTURE */
 .main{
-  /* background-color: var(--green1); */
 }
 
-/* Footer */
+.project-controls{
+  display: none;
+}
+.project-content{
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+.project-image{
+  /* background-color: rgb(210, 210, 255); */
+}
+.project-card{
+  /* background-color: rgb(211, 240, 157); */
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.project-info h2{
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.project-info h5{
+  padding-bottom: 0.5rem;
+}
+.technologies{
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.technologies ul{
+  list-style: none;
+}
+.technologies li{
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+
+
+
+/* FOOTER */
 footer{
   background-color: var(--nav-grey);
-
 }
-
 .footer{
-  /* Inner contents */
   display: flex;
   justify-content: center;
   padding: 1rem 0;
 }
-
 .footer .nav-item{
   padding: 0 0.5rem;
 }
 
-/* Media Queries */
+
+
+/* MEDIA QUERIES */
 @media screen and (min-width: 800px){
+  .App{
+    min-height: 100vh;
+  }
+  
   .container{
     margin: 0 15%;
   }
@@ -176,13 +234,12 @@ footer{
     /* text-align: right; */
   }
   .nav-right ul{
-    display: flex;
-    
+    display: flex; 
   }
   .nav-right li{
     margin: 0;
     padding: 0;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
     list-style: none;
     cursor: pointer;
   }
@@ -192,9 +249,90 @@ footer{
     font-weight: light;
     color: var(--link-grey);
   }
+  .nav-right label{
+    font-size: 1.2rem;
+    font-weight: light;
+    color: var(--link-grey);
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 150ms ease-in-out;
+  }
+  .nav-right label:hover{
+    color: var(--green2)
+  }
+  /* project menu toggle */
+  .nav-project{
+    right: 00%;
+    top: 2.7rem;
+    transform: scale(1, 0);  
+    transition: transform 300ms ease-in-out;
+    transform-origin: top;
+  }
+  .nav-project ul{
+    display: block;
+    text-align: right;
+  }
+  .nav-project li{
+    color: var(--link-grey);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    cursor: pointer;
+    margin-top: 0.6rem;
+  }
+  .nav-project li:hover{
+    color: var(--green2)
+  }
+  .nav-project-toggle{
+    display:none;
+  }
+  .nav-project-toggle:checked ~ .nav-project{
+    transform: scale(1,1);
+  }
+  .nav-project-toggle:checked ~ .nav-project li{
+    opacity: 1;
+    transition: opacity 200ms ease-in-out 100ms;
+  }
+
+  /* display controls for each project */
+  #p1{
+    display: flex;
+  }
+  #p2{
+    display: none;
+  }
+  #p3{
+    display: none;
+  }
+  #p4{
+    display: none;
+  }
+
+  .toggle-title{
+    padding: 0.1rem 2rem;
+  }
+  .project-controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .project-card{
+    flex-direction: row;
+  }
+  .project-info{
+    margin-left: 1rem
+  }
+  .project-info h2{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .project-info h5{
+    padding-bottom: 0.5rem;
+  }
 }
 
-/* Test-build styles */
+
+
+/* TEST BUILD STYLES */
 
 .test{
   border: 1px solid black;
