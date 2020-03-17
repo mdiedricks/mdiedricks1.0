@@ -161,6 +161,18 @@ nav{
 .main{
 }
 
+#p1{
+  display: flex;
+}
+#p2{
+  display: flex;
+}
+#p3{
+  display: flex;
+}
+#p4{
+  display: flex;
+}
 .project-controls{
   display: none;
 }

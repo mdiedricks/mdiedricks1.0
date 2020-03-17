@@ -12,8 +12,6 @@ import About from './components/About'
 function App() {
   const [currentProject, setCurrentProject] = useState(1);
 
-
-
   const projects = [
     {
         title: 'CoWandr',
