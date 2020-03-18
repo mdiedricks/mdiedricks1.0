@@ -27,9 +27,10 @@ export default function Navbar() {
             <div className="container">
                 <div className="navbar">
                     <a href='/mdiedricks'>
-                        <div className='nav-left'>
+                        <div className='nav-left brand'>
                             <ion-icon name="skull"></ion-icon>
-                            <span className="brand">michael diedricks</span>
+                            <span className="title-logo">michael diedricks</span>
+                            
                         </div>
                     </a>
 

@@ -92,16 +92,23 @@ nav{
   justify-self: start;
   align-items: center;
 }
-
 .brand{
   font-size: 1.5rem;
   font-weight: bold;
   padding:0 1rem;
   transition: all 0.5s ease-in-out;
 }
-.brand:hover {
+.title-logo{
+  padding-left: 0.5rem;
+}
+.nav-left:hover {
   color: var(--green2)
 }
+.nav-left:hover ion-icon{
+  color: var(--green2);
+  transform: scale(1.15);
+}
+
 
 /* right navigation */
 .nav-right{

@@ -22,11 +22,11 @@ export default function Home() {
                     </div>
 
                     <div className="skills">
-                        <span id="react"><ion-icon name="logo-react"></ion-icon></span>
-                        <span id="firebase"><ion-icon name="logo-firebase"></ion-icon></span>
-                        <span id="html"><ion-icon name="logo-html5"></ion-icon></span>
-                        <span id="css"><ion-icon name="logo-css3"></ion-icon></span>
-                        <span id="js"><ion-icon name="logo-javascript"></ion-icon></span>
+                        <span id="react" title="React.js"><ion-icon name="logo-react"></ion-icon></span>
+                        <span id="firebase" title="Firebase"><ion-icon name="logo-firebase"></ion-icon></span>
+                        <span id="html" title="HTML5"><ion-icon name="logo-html5"></ion-icon></span>
+                        <span id="css" title="CSS3"><ion-icon name="logo-css3"></ion-icon></span>
+                        <span id="js" title="Javascript"><ion-icon name="logo-javascript"></ion-icon></span>
                     </div>
 
                     <div className="sub-text">
