@@ -1,30 +1,33 @@
 {
   "files": {
-    "main.css": "/mdiedricks/static/css/main.fb47b633.chunk.css",
-    "main.js": "/mdiedricks/static/js/main.c24fbace.chunk.js",
-    "main.js.map": "/mdiedricks/static/js/main.c24fbace.chunk.js.map",
+    "main.css": "/mdiedricks/static/css/main.8dcfc863.chunk.css",
+    "main.js": "/mdiedricks/static/js/main.2e51dd45.chunk.js",
+    "main.js.map": "/mdiedricks/static/js/main.2e51dd45.chunk.js.map",
     "runtime-main.js": "/mdiedricks/static/js/runtime-main.1e8102f1.js",
     "runtime-main.js.map": "/mdiedricks/static/js/runtime-main.1e8102f1.js.map",
-    "static/js/2.f899254a.chunk.js": "/mdiedricks/static/js/2.f899254a.chunk.js",
-    "static/js/2.f899254a.chunk.js.map": "/mdiedricks/static/js/2.f899254a.chunk.js.map",
+    "static/js/2.85fd0b79.chunk.js": "/mdiedricks/static/js/2.85fd0b79.chunk.js",
+    "static/js/2.85fd0b79.chunk.js.map": "/mdiedricks/static/js/2.85fd0b79.chunk.js.map",
     "index.html": "/mdiedricks/index.html",
-    "precache-manifest.a540c13c3ac22db11be9485f88c1be87.js": "/mdiedricks/precache-manifest.a540c13c3ac22db11be9485f88c1be87.js",
+    "precache-manifest.899132c54b88caecb8d6a799fc36352d.js": "/mdiedricks/precache-manifest.899132c54b88caecb8d6a799fc36352d.js",
     "service-worker.js": "/mdiedricks/service-worker.js",
-    "static/css/main.fb47b633.chunk.css.map": "/mdiedricks/static/css/main.fb47b633.chunk.css.map",
-    "static/js/2.f899254a.chunk.js.LICENSE.txt": "/mdiedricks/static/js/2.f899254a.chunk.js.LICENSE.txt",
+    "static/css/main.8dcfc863.chunk.css.map": "/mdiedricks/static/css/main.8dcfc863.chunk.css.map",
+    "static/js/2.85fd0b79.chunk.js.LICENSE.txt": "/mdiedricks/static/js/2.85fd0b79.chunk.js.LICENSE.txt",
     "static/media/arduino.svg": "/mdiedricks/static/media/arduino.989c4b5a.svg",
     "static/media/headshot.svg": "/mdiedricks/static/media/headshot.bfa76491.svg",
     "static/media/heroku.svg": "/mdiedricks/static/media/heroku.ab10ac57.svg",
     "static/media/mdiedricks_2020.pdf": "/mdiedricks/static/media/mdiedricks_2020.31076923.pdf",
+    "static/media/mongodb.svg": "/mdiedricks/static/media/mongodb.ac992f94.svg",
+    "static/media/nodejs.svg": "/mdiedricks/static/media/nodejs.05108f13.svg",
     "static/media/postgresql.svg": "/mdiedricks/static/media/postgresql.6304ccbb.svg",
     "static/media/python.svg": "/mdiedricks/static/media/python.2e00336c.svg",
     "static/media/rails.svg": "/mdiedricks/static/media/rails.97bc7b45.svg",
-    "static/media/ruby.svg": "/mdiedricks/static/media/ruby.2dbe4add.svg"
+    "static/media/ruby.svg": "/mdiedricks/static/media/ruby.2dbe4add.svg",
+    "static/media/typescript.svg": "/mdiedricks/static/media/typescript.03bc6380.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1e8102f1.js",
-    "static/js/2.f899254a.chunk.js",
-    "static/css/main.fb47b633.chunk.css",
-    "static/js/main.c24fbace.chunk.js"
+    "static/js/2.85fd0b79.chunk.js",
+    "static/css/main.8dcfc863.chunk.css",
+    "static/js/main.2e51dd45.chunk.js"
   ]
 }
