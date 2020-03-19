@@ -6,6 +6,9 @@ import rails from '../assets/rails.svg'
 import psql from'../assets/postgresql.svg'
 import heroku from '../assets/heroku.svg'
 import arduino from '../assets/arduino.svg'
+import mongodb from '../assets/mongodb.svg'
+import typescript from '../assets/typescript.svg'
+import nodejs from '../assets/nodejs.svg'
 
 
 export default function Home() {
@@ -28,6 +31,18 @@ export default function Home() {
                         <span id="css" title="CSS3"><ion-icon name="logo-css3"></ion-icon></span>
                         <span id="js" title="Javascript"><ion-icon name="logo-javascript"></ion-icon></span>
                     </div>
+
+                    <div className="sub-text">
+                        <p>Currently learning</p>                    
+                    </div>
+
+                    <div className="new-skills">
+                        {/* postgres, ruby, rails, python, arduino */}
+                        <span title="Node"><ion-icon src={nodejs}></ion-icon></span>
+                        <span title="Express"><ion-icon src={mongodb}></ion-icon></span>
+                        <span title="Typescript"><ion-icon src={typescript}></ion-icon></span>
+                    </div>
+
 
                     <div className="sub-text">
                         <p>I've also built things with</p>                    
