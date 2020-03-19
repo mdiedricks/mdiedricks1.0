@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4a90fdb21193fc7eb5e021b9d969f79",
+    "revision": "5c942c5ee373d3cf382249cf42f4b530",
     "url": "/mdiedricks/index.html"
   },
   {
-    "revision": "9a8e6e5bf2900f378777",
-    "url": "/mdiedricks/static/css/main.0f1ca2f2.chunk.css"
+    "revision": "17bbe4c7422d9feee8e9",
+    "url": "/mdiedricks/static/css/main.fb47b633.chunk.css"
   },
   {
-    "revision": "5718f13b4c138ba9800f",
-    "url": "/mdiedricks/static/js/2.a15dde45.chunk.js"
+    "revision": "62b29902427852ad90ed",
+    "url": "/mdiedricks/static/js/2.f899254a.chunk.js"
   },
   {
     "revision": "94b29ac6d0ec426932e82da99c88b81c",
-    "url": "/mdiedricks/static/js/2.a15dde45.chunk.js.LICENSE.txt"
+    "url": "/mdiedricks/static/js/2.f899254a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a8e6e5bf2900f378777",
-    "url": "/mdiedricks/static/js/main.f0954081.chunk.js"
+    "revision": "17bbe4c7422d9feee8e9",
+    "url": "/mdiedricks/static/js/main.c24fbace.chunk.js"
   },
   {
     "revision": "e0896222d3cbc938d4e5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "989c4b5a5b42056db61501857ffb3610",
     "url": "/mdiedricks/static/media/arduino.989c4b5a.svg"
+  },
+  {
+    "revision": "bfa764917e8d218956c0c7a19099a533",
+    "url": "/mdiedricks/static/media/headshot.bfa76491.svg"
   },
   {
     "revision": "ab10ac57d7ae72cfc2b50d1ffcc79267",

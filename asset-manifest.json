@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/mdiedricks/static/css/main.0f1ca2f2.chunk.css",
-    "main.js": "/mdiedricks/static/js/main.f0954081.chunk.js",
-    "main.js.map": "/mdiedricks/static/js/main.f0954081.chunk.js.map",
+    "main.css": "/mdiedricks/static/css/main.fb47b633.chunk.css",
+    "main.js": "/mdiedricks/static/js/main.c24fbace.chunk.js",
+    "main.js.map": "/mdiedricks/static/js/main.c24fbace.chunk.js.map",
     "runtime-main.js": "/mdiedricks/static/js/runtime-main.1e8102f1.js",
     "runtime-main.js.map": "/mdiedricks/static/js/runtime-main.1e8102f1.js.map",
-    "static/js/2.a15dde45.chunk.js": "/mdiedricks/static/js/2.a15dde45.chunk.js",
-    "static/js/2.a15dde45.chunk.js.map": "/mdiedricks/static/js/2.a15dde45.chunk.js.map",
+    "static/js/2.f899254a.chunk.js": "/mdiedricks/static/js/2.f899254a.chunk.js",
+    "static/js/2.f899254a.chunk.js.map": "/mdiedricks/static/js/2.f899254a.chunk.js.map",
     "index.html": "/mdiedricks/index.html",
-    "precache-manifest.c84c5a160e25b517c7fa4b4ba0fefb93.js": "/mdiedricks/precache-manifest.c84c5a160e25b517c7fa4b4ba0fefb93.js",
+    "precache-manifest.a540c13c3ac22db11be9485f88c1be87.js": "/mdiedricks/precache-manifest.a540c13c3ac22db11be9485f88c1be87.js",
     "service-worker.js": "/mdiedricks/service-worker.js",
-    "static/css/main.0f1ca2f2.chunk.css.map": "/mdiedricks/static/css/main.0f1ca2f2.chunk.css.map",
-    "static/js/2.a15dde45.chunk.js.LICENSE.txt": "/mdiedricks/static/js/2.a15dde45.chunk.js.LICENSE.txt",
+    "static/css/main.fb47b633.chunk.css.map": "/mdiedricks/static/css/main.fb47b633.chunk.css.map",
+    "static/js/2.f899254a.chunk.js.LICENSE.txt": "/mdiedricks/static/js/2.f899254a.chunk.js.LICENSE.txt",
     "static/media/arduino.svg": "/mdiedricks/static/media/arduino.989c4b5a.svg",
+    "static/media/headshot.svg": "/mdiedricks/static/media/headshot.bfa76491.svg",
     "static/media/heroku.svg": "/mdiedricks/static/media/heroku.ab10ac57.svg",
     "static/media/mdiedricks_2020.pdf": "/mdiedricks/static/media/mdiedricks_2020.31076923.pdf",
     "static/media/postgresql.svg": "/mdiedricks/static/media/postgresql.6304ccbb.svg",
@@ -22,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1e8102f1.js",
-    "static/js/2.a15dde45.chunk.js",
-    "static/css/main.0f1ca2f2.chunk.css",
-    "static/js/main.f0954081.chunk.js"
+    "static/js/2.f899254a.chunk.js",
+    "static/css/main.fb47b633.chunk.css",
+    "static/js/main.c24fbace.chunk.js"
   ]
 }
