@@ -1,6 +1,8 @@
 import React from 'react'
 import '../App.css';
 import profile from '../assets/headshot.svg';
+import world from '../assets/world.svg';
+import fire from '../assets/fire.svg';
 
 
 export default function About() {
@@ -19,7 +21,7 @@ export default function About() {
                 </div>
 
                 <div className="card-reverse">
-                    <img src={profile} alt="it's me"/>
+                    <img src={fire} alt="it's me"/>
                     <div className="text-block">
                         <p className="main-line">I'm fascinated by the way a piece of software can be scaled to help thousands of people solve every day problems.</p>
                         <p className="one-liner">
@@ -29,7 +31,7 @@ export default function About() {
                 </div>
 
                 <div className="card">                        
-                    <img src={profile} alt="it's me"/>
+                    <img src={world} alt="it's me"/>
                     <div className="text-block">
                         <p className="main-line">I'm looking for a role where I can work with a team building tools to help people and businesses achieve their goals.</p>
                         <p className="one-liner">

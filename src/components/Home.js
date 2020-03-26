@@ -17,7 +17,7 @@ export default function Home() {
             <div className="container">
                 <div className="mobile-stretcher">
                     <div className="message">
-                        <span>Hi, my name is Michael and I like building web tools!</span>
+                        <p>Hi, my name is Michael and I like building web tools!</p>
                     </div>
 
                     <div className="sub-text">
@@ -31,6 +31,11 @@ export default function Home() {
                         <span id="css" title="CSS3"><ion-icon name="logo-css3"></ion-icon></span>
                         <span id="js" title="Javascript"><ion-icon name="logo-javascript"></ion-icon></span>
                     </div>
+                    
+                    {/* <div className="current-project">
+                        <p>Check out what I'm currently working on</p>
+
+                    </div> */}
 
                     <div className="sub-text">
                         <p>Currently learning</p>                    

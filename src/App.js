@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
-// Import components
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './components/Home'
@@ -17,17 +15,21 @@ function App() {
         title: 'CoWandr',
         id: 'p1',
         subtitle: 'Collaborative travel planner',
-        description: `In Planning Phase - CoWandr was conceived out of the necessity to streamline the pains of planning a trip with multiple people. Whether you're planning a family holiday overseas or an overnight trip away with friends, we hope CoWandr will be a useful tool for everyone. `,
+        description: `WIP - CoWandr was conceived out of the necessity to streamline the pains of planning a trip with multiple people. My partner and I wanted to build an application that we wanted to use, with the features we wished we had on our holidays.`,
+        challenges: `Having never built a collaborative app before, the challenges lying ahead will focus a lot on getting real-time feedback to make the user-experience as seamless as possible.`,
         technologies: ["logo-react","logo-firebase"],
-        link: "https://bitbucket.org/cowandr/cowandr-firebase/src/master/"
+        link: "https://bitbucket.org/cowandr/cowandr-firebase/src/master/",
+        liveVersion: ''
     }
     ,{
         title: 'QuestLog',
         id: 'p2',
         subtitle: 'Keep track of your characters - in and out of combat',
-        description: 'Simple game-tracker for Dungeons & Dragons types games.', 
+        description: `WIP - Simple game-tracker for Dungeons & Dragons types games. I always wanted to have my own game tracker with the features I thought would be important to a game master. Some applications either have too many unnecessary tools, or some don't have enough tools, or the data isn't persisted. This is a balance I invisioned.`,
+        challenges: `Never used Firebase before, or NoSQL databases. Both presented their own challenges. On the front-end I was also experimenting with an unfamiliar CSS framework (Bulma) which took some getting used to.`,
         technologies: ['logo-react', 'logo-firebase'],
-        link: "https://github.com/mdiedricks/questlog"
+        link: "https://github.com/mdiedricks/questlog",
+        liveVersion: ''
     }
     // ,{
     //     title: 'Ask Toad',
@@ -35,15 +37,18 @@ function App() {
     //     subtitle: 'Generate companion planting combinations',
     //     description: 'Generate and save plant combinations for your garden. This generator allows you to create 3-way plant combinations with suggestions for other plant pairings.', 
     //     technologies: ["logo-react","logo-firebase"],
+    //     challenges: ``,
     //     link: "https://bitbucket.org/cowandr/cowandr-firebase/src/master/"
     // }
     ,{
         title: '8Bit TicTacToe',
         id: 'p3',
         subtitle: 'A retro themed classic',
-        description: 'Simple game-tracker for Dungeons & Dragons types games.',
+        description: 'Project 0 at General Assembly - I chose an 8Bit theme with reverence to my childhood. I tried to mimic how NES games used to look and function complete with an arbitrary starry background.',
         technologies: ["logo-javascript"],
-        link: "https://github.com/mdiedricks/gaproject00"
+        challenges: `This was the first project I used JQuery on which presented it's own challenges. But the main lesson learned here was using and setting states. I didn't know how important this was going to be later in my career.`,
+        link: "https://github.com/mdiedricks/gaproject00",
+        liveVersion: ''
     }
 ]
 

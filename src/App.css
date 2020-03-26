@@ -179,6 +179,9 @@ nav{
   font-size: 3rem;
   color: var(--text-grey);
 }
+.message p{
+  width: 80%;
+}
 .sub-text{
   margin-top: 2rem;
   display: flex;
@@ -356,9 +359,13 @@ footer{
     color: var(--green2)
   }
 
+  /* home section */
+  .message p{
+    justify-content: center;
+    width: 75%;
+  }
 
-
-  /* About section */
+  /* about section */
   .card{
     display: flex;
     flex-direction: row;

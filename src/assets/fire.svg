@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
-   sodipodi:docname="headshot.svg">
+   sodipodi:docname="fire.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -91,7 +91,7 @@
      id="layer3"
      inkscape:label="Headshot"
      transform="translate(0,-117)"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <ellipse
        transform="rotate(-46.819413)"
@@ -363,8 +363,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="World"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:none">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 62.850103,94.494633 c 0,0 -9.646762,17.831887 -10.08525,19.001197 -0.438489,1.1693 -4.384892,14.6163 -4.384892,16.37026 0,1.75395 0.584652,3.36174 0.292327,5.55419 -0.292327,2.19245 -0.876977,7.01583 -0.876977,8.33129 0,1.31547 0.438489,10.08525 0.146161,11.83921 -0.292325,1.75396 -0.584652,3.21559 -0.584652,3.21559"
@@ -764,7 +763,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Fire"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
