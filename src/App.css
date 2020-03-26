@@ -78,6 +78,7 @@ ion-icon:hover {
 /* NAVIGATION */
 nav{
   /* background-color: var(--nav-grey); */
+  height: 10vh;
 }
 
 .navbar{
@@ -169,33 +170,34 @@ nav{
 
 /* home page */
 .mobile-stretcher{
-  height: 81vh;
+  height: 79vh;
 }
 .message{
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 3rem;
-  font-size: 3rem;
+  margin: 2rem 3rem 0 3rem;
+  font-size: 1.8rem;
   color: var(--text-grey);
 }
 .message p{
   width: 80%;
 }
 .sub-text{
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: var(--link-grey);
 }
 .skills{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 1.6rem;
+  margin: 0.8rem 1.6rem 0 1.6rem;
 }
 .skills ion-icon{
-  font-size: 75px;
+  font-size: 2.3rem;
   padding: 0 0.5rem;
 }
 #react ion-icon{
@@ -215,21 +217,23 @@ nav{
 }
 .new-skills{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 1.6rem;
+  margin: 1.6rem 1.6rem 0 1.6rem;
 }
 .new-skills ion-icon{
-  font-size: 50px;
+  font-size: 1.9rem;
   padding: 0 0.5rem;
 }
 .other-skills{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 1.6rem;
+  margin: 1.6rem 1.6rem 0 1.6rem;
 }
 .other-skills ion-icon{
   color: var(--link-grey);
-  font-size: 36px;
+  font-size: 1.6rem;
   padding: 0.5rem 0.5rem;;
 }
 
@@ -305,6 +309,7 @@ nav{
 /* FOOTER */
 footer{
   background-color: var(--nav-grey);
+  height: 10vh;
 }
 .footer{
   display: flex;
@@ -363,7 +368,21 @@ footer{
   .message p{
     justify-content: center;
     width: 75%;
+    font-size: 3rem;
   }
+  .skills ion-icon{
+    font-size: 5rem;
+    padding: 0 0.5rem;
+  }
+  .new-skills ion-icon{
+    font-size: 3.3rem;
+    padding: 0 0.5rem;
+  }
+  .other-skills ion-icon{
+    font-size: 2.4rem;
+    padding: 0 0.5rem;
+  }
+
 
   /* about section */
   .card{
@@ -372,17 +391,17 @@ footer{
     margin: 1.5rem 0;
   }
   .card img{
-    width: 45%;
+    width: 50%;
   }
   .text-block{
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   .main-line{
     font-size: 1.5rem;
-    margin: 1rem 1.5rem;
+    margin: 1rem 0;
   }
   .one-liner{
-    margin: 1rem 1.5rem;
+    margin: 1rem 0;
   }
   .card-reverse {
     display: flex;
@@ -390,7 +409,7 @@ footer{
     margin: 1.5rem 0;
   }
   .card-reverse img{
-    width: 45%;
+    width: 50%;
   }
 
 
