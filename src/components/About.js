@@ -25,7 +25,7 @@ export default function About() {
                     <div className="text-block">
                         <p className="main-line">I'm fascinated by the way a piece of software can be scaled to help thousands of people solve every day problems.</p>
                         <p className="one-liner">
-                         I want to build tools that add value to people's lives, filling in the gaps of human capabilities. Software is to us what fire was to the cave man, and I want to learn and use all it has to offer.
+                            I want to build tools that add value to people's lives, filling in the gaps of human capabilities. Software is to us what fire was to the cave man, and I want to learn and use all it has to offer.
                         </p>
                     </div>
                 </div>

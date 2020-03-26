@@ -6,30 +6,33 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Projects from './components/Projects'
 import About from './components/About'
+import ticTac from './assets/tictactoe.png'
 
 function App() {
   const [currentProject, setCurrentProject] = useState(1);
 
   const projects = [
     {
-        title: 'CoWandr',
+        title: 'CoWandr - WIP',
         id: 'p1',
         subtitle: 'Collaborative travel planner',
-        description: `WIP - CoWandr was conceived out of the necessity to streamline the pains of planning a trip with multiple people. My partner and I wanted to build an application that we wanted to use, with the features we wished we had on our holidays.`,
+        description: `CoWandr was conceived out of the necessity to streamline the pains of planning a trip with multiple people. My partner and I wanted to build an application that we wanted to use, with the features we wished we had on our holidays.`,
         challenges: `Having never built a collaborative app before, the challenges lying ahead will focus a lot on getting real-time feedback to make the user-experience as seamless as possible.`,
         technologies: ["logo-react","logo-firebase"],
         link: "https://bitbucket.org/cowandr/cowandr-firebase/src/master/",
-        liveVersion: ''
+        liveVersion: '',
+        image: ticTac
     }
     ,{
-        title: 'QuestLog',
+        title: 'QuestLog - WIP',
         id: 'p2',
-        subtitle: 'Keep track of your characters - in and out of combat',
-        description: `WIP - Simple game-tracker for Dungeons & Dragons types games. I always wanted to have my own game tracker with the features I thought would be important to a game master. Some applications either have too many unnecessary tools, or some don't have enough tools, or the data isn't persisted. This is a balance I invisioned.`,
+        subtitle: 'Keep track of your characters',
+        description: `Simple game-tracker for Dungeons & Dragons types games. I always wanted to have my own game tracker with the features I thought would be important to a game master. Some applications either have too many unnecessary tools, or some don't have enough tools, or the data isn't persisted. This is a balance I invisioned.`,
         challenges: `Never used Firebase before, or NoSQL databases. Both presented their own challenges. On the front-end I was also experimenting with an unfamiliar CSS framework (Bulma) which took some getting used to.`,
         technologies: ['logo-react', 'logo-firebase'],
         link: "https://github.com/mdiedricks/questlog",
-        liveVersion: ''
+        liveVersion: '',
+        image: ticTac
     }
     // ,{
     //     title: 'Ask Toad',
@@ -38,7 +41,9 @@ function App() {
     //     description: 'Generate and save plant combinations for your garden. This generator allows you to create 3-way plant combinations with suggestions for other plant pairings.', 
     //     technologies: ["logo-react","logo-firebase"],
     //     challenges: ``,
-    //     link: "https://bitbucket.org/cowandr/cowandr-firebase/src/master/"
+    //     link: "https://",
+    //     liveVersion: '',
+    //     image: ticTac
     // }
     ,{
         title: '8Bit TicTacToe',
@@ -48,7 +53,8 @@ function App() {
         technologies: ["logo-javascript"],
         challenges: `This was the first project I used JQuery on which presented it's own challenges. But the main lesson learned here was using and setting states. I didn't know how important this was going to be later in my career.`,
         link: "https://github.com/mdiedricks/gaproject00",
-        liveVersion: ''
+        liveVersion: 'https://mdiedricks.github.io/gaproject00/',
+        image: ticTac
     }
 ]
 

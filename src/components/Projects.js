@@ -6,20 +6,24 @@ export default function Projects(props) {
         <div key={index} id={e.id} className="project-card">
             <div className="project-image">
                 <a href="https://placeholder.com/">
-                <img src="https://via.placeholder.com/350" alt="sourceImage"/></a>  
+                <img src={e.image} alt="sourceImage"/></a>  
             </div>
             <div className="project-info">
                 <h2>{e.title}</h2>
-                <h5>{e.subtitle}</h5>
+                <h4>{e.subtitle}</h4>
                 <div className="technologies">
                     <ul>
                         {e.technologies.map((f, index) => (
                         <li key={index}> <ion-icon name={f}></ion-icon></li>
                         ))}
-                        <li><a href={e.link}><ion-icon name="power-outline"></ion-icon></a></li>
+                        <li><a href={e.link}><ion-icon name="logo-github"></ion-icon></a></li>
                     </ul>
                 </div>
+                <h5>description</h5>
                 <p>{e.description}</p>
+                <h5>challenges</h5>
+                <p>{e.challenges}</p>
+                <p><a href={e.liveVersion}>Try it out!</a></p>
             </div>
         </div>
     ))

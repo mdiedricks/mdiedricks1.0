@@ -3,7 +3,6 @@
 This project is a personal portfolio website bootstrapped with Create React App.
 A quick build to showcase a few of my web development projects and connect visitors to my social accounts.
 
-
 ## Hosting and Deployment
 
 The project is hosted via github pages using npm package gh-pages.
