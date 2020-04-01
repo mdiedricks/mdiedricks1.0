@@ -16,7 +16,7 @@ export default function Projects(props) {
                         {e.technologies.map((f, index) => (
                         <li key={index}> <ion-icon name={f}></ion-icon></li>
                         ))}
-                        <li><a href={e.link}><ion-icon name="logo-github"></ion-icon></a></li>
+                        <li><a href={e.link}><ion-icon name="git-branch-outline"></ion-icon></a></li>
                     </ul>
                 </div>
                 <h5>description</h5>

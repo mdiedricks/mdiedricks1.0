@@ -131,13 +131,13 @@ nav{
   margin-right: 1em;
 }
 .nav-right a{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: light;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
 .nav-right label{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: light;
   color: var(--link-grey);
   cursor: pointer;
@@ -291,14 +291,20 @@ nav{
   overflow: hidden;
   object-fit: contain;
   height: 250px;
+  border-radius: 7px;
+  transition: all 600ms ease-in-out;
 }
 .project-image img{
   width: 100%;
-  transition: all 2s ease-in-out;
+  transition: all 600ms ease-in-out;
   transform-origin: top left;
 }
+.project-image:hover{
+  box-shadow: 5px 5px 9px var(--icon-grey); 
+  transition: all 600ms ease-in-out;
+}
 .project-image img:hover{
-  transform: scale(1.1);
+  transform: scale(1.03);
   transform-origin: top left;  
 }
 .project-info h2{
@@ -370,12 +376,12 @@ footer{
   }
   .nav-right a{
     opacity: 1;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: light;
     color: var(--link-grey);
   }
   .nav-right label{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: light;
     color: var(--link-grey);
     cursor: pointer;
@@ -391,14 +397,31 @@ footer{
     justify-content: center;
     width: 75%;
     font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+  .sub-text{
+    padding: 1rem 0 0 0;
+    margin: 0;
+  }
+  .skills{
+    margin: 0;
+    padding: 1.2rem;
   }
   .skills ion-icon{
     font-size: 5rem;
     padding: 0 0.5rem;
   }
+  .new-skills{
+    margin: 0;
+    padding:1.2rem;
+  }
   .new-skills ion-icon{
     font-size: 3.3rem;
     padding: 0 0.5rem;
+  }
+  .other-skills{
+    margin: 0;
+    padding: 1.2rem;
   }
   .other-skills ion-icon{
     font-size: 2.4rem;
