@@ -39,7 +39,8 @@ body{
 }
 
 .App{
-  /* min-height: 100vh; */
+  position: relative;
+  min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
@@ -73,13 +74,14 @@ ion-icon:hover {
   margin: 0 5%;
 }
 
+.main{
+  padding-bottom: 2.5rem;
+}
+
 
 
 /* NAVIGATION */
-nav{
-  /* background-color: var(--nav-grey); */
-  height: 10vh;
-}
+
 
 .navbar{
   position: relative;
@@ -337,7 +339,10 @@ nav{
 /* FOOTER */
 footer{
   background-color: var(--nav-grey);
-  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto; 
 }
 .footer{
   display: flex;

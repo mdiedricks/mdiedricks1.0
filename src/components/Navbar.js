@@ -7,20 +7,9 @@ export default function Navbar() {
     const handlePage = () => {
         console.log("newpage");
         document.querySelector('.nav-toggle').checked = false;
-        // document.querySelector('.nav-project-toggle').checked = false;
     }
 
-    // const handleProject = (e) => {
-    //     console.log('HandleProject clicked')
-    //     document.querySelector('.nav-toggle').checked = false;
-    //     document.querySelector('.nav-project-toggle').checked = false;
-    //     // console.log(e.target.id);
-    //     let linkId = document.querySelector(e.target.id);
-    //     console.log(`Link id is: `, linkId);
-    //     let projectDiv = document.getElementsByClassName(linkId);
-    //     console.log(`Div is: `, projectDiv);
-    //     projectDiv[0].style.display = 'block';
-    // }
+
     
     return (
         <nav>

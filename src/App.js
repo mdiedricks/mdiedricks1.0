@@ -7,13 +7,15 @@ import Home from './components/Home'
 import Projects from './components/Projects'
 import About from './components/About'
 import ticTac from './assets/tictactoe.png'
+import cowandr from './assets/cowandr.png'
+import questlog from './assets/questlog.png'
 
 function App() {
   const [currentProject, setCurrentProject] = useState(1);
 
   const projects = [
     {
-        title: 'CoWandr - WIP',
+        title: 'CoWandr - Work in Progress',
         id: 'p1',
         subtitle: 'Collaborative travel planner',
         description: `CoWandr was conceived out of the necessity to streamline the pains of planning a trip with multiple people. My partner and I wanted to build an application that we wanted to use, with the features we wished we had on our holidays.`,
@@ -21,10 +23,10 @@ function App() {
         technologies: ["logo-react","logo-firebase"],
         link: "https://bitbucket.org/cowandr/cowandr-firebase/src/master/",
         liveVersion: '',
-        image: ticTac
+        image: cowandr
     }
     ,{
-        title: 'QuestLog - WIP',
+        title: 'QuestLog - Work in Progress',
         id: 'p2',
         subtitle: 'Keep track of your characters',
         description: `Simple game-tracker for Dungeons & Dragons types games. I always wanted to have my own game tracker with the features I thought would be important to a game master. Some applications either have too many unnecessary tools, or some don't have enough tools, or the data isn't persisted. This is a balance I invisioned.`,
@@ -32,7 +34,7 @@ function App() {
         technologies: ['logo-react', 'logo-firebase'],
         link: "https://github.com/mdiedricks/questlog",
         liveVersion: '',
-        image: ticTac
+        image: questlog
     }
     // ,{
     //     title: 'Ask Toad',

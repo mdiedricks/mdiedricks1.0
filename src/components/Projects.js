@@ -5,8 +5,7 @@ export default function Projects(props) {
     const projects = props.projects.map((e, index) => (
         <div key={index} id={e.id} className="project-card">
             <div className="project-image">
-                <a href="https://placeholder.com/">
-                <img src={e.image} alt="sourceImage"/></a>  
+                <img src={e.image} alt="sourceImage"/>  
             </div>
             <div className="project-info">
                 <h2>{e.title}</h2>
@@ -23,7 +22,7 @@ export default function Projects(props) {
                 <p>{e.description}</p>
                 <h5>challenges</h5>
                 <p>{e.challenges}</p>
-                <p><a href={e.liveVersion}>Try it out!</a></p>
+                {/* <p><a href={e.liveVersion}>Try it out!</a></p> */}
             </div>
         </div>
     ))
