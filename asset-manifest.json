@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mdiedricks/static/css/main.af66fc67.chunk.css",
+    "main.css": "/mdiedricks/static/css/main.0dd10703.chunk.css",
     "main.js": "/mdiedricks/static/js/main.60de5833.chunk.js",
     "main.js.map": "/mdiedricks/static/js/main.60de5833.chunk.js.map",
     "runtime-main.js": "/mdiedricks/static/js/runtime-main.1e8102f1.js",
@@ -8,9 +8,9 @@
     "static/js/2.dd2b4a63.chunk.js": "/mdiedricks/static/js/2.dd2b4a63.chunk.js",
     "static/js/2.dd2b4a63.chunk.js.map": "/mdiedricks/static/js/2.dd2b4a63.chunk.js.map",
     "index.html": "/mdiedricks/index.html",
-    "precache-manifest.66e2bc0d346dc061371d076bdd20b159.js": "/mdiedricks/precache-manifest.66e2bc0d346dc061371d076bdd20b159.js",
+    "precache-manifest.c811b3b512b9b5c119888f823a47d596.js": "/mdiedricks/precache-manifest.c811b3b512b9b5c119888f823a47d596.js",
     "service-worker.js": "/mdiedricks/service-worker.js",
-    "static/css/main.af66fc67.chunk.css.map": "/mdiedricks/static/css/main.af66fc67.chunk.css.map",
+    "static/css/main.0dd10703.chunk.css.map": "/mdiedricks/static/css/main.0dd10703.chunk.css.map",
     "static/js/2.dd2b4a63.chunk.js.LICENSE.txt": "/mdiedricks/static/js/2.dd2b4a63.chunk.js.LICENSE.txt",
     "static/media/arduino.svg": "/mdiedricks/static/media/arduino.989c4b5a.svg",
     "static/media/cowandr.png": "/mdiedricks/static/media/cowandr.8156b433.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.1e8102f1.js",
     "static/js/2.dd2b4a63.chunk.js",
-    "static/css/main.af66fc67.chunk.css",
+    "static/css/main.0dd10703.chunk.css",
     "static/js/main.60de5833.chunk.js"
   ]
 }
