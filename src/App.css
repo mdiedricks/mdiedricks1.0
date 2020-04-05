@@ -75,7 +75,7 @@ ion-icon:hover {
 }
 
 .main{
-  padding-bottom: 2.5rem;
+  padding-bottom: 6rem;
 }
 
 
@@ -171,14 +171,12 @@ ion-icon:hover {
 /* PAGE STRUCTURE */
 
 /* home page */
-.mobile-stretcher{
-  height: 79vh;
-}
+
 .message{
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 2rem 3rem 0 3rem;
+  margin: 2rem 3rem 1.5rem 3rem;
   font-size: 1.8rem;
   color: var(--text-grey);
 }
