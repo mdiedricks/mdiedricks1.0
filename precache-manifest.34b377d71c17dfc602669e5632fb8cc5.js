@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e7cd7040b5c5e177fcbe9a9ff687261",
+    "revision": "bf6046aacabbc11d11684bc7e3a7ee24",
     "url": "/mdiedricks/index.html"
   },
   {
-    "revision": "fc9261c6fe7af30ac853",
-    "url": "/mdiedricks/static/css/main.edd49faa.chunk.css"
+    "revision": "e9ca2a33e83876d7da00",
+    "url": "/mdiedricks/static/css/main.a22d7a57.chunk.css"
   },
   {
-    "revision": "8d03df711d95fc1812b3",
-    "url": "/mdiedricks/static/js/2.9fc6513b.chunk.js"
+    "revision": "94cea5671acbe21ed8e5",
+    "url": "/mdiedricks/static/js/2.dd2b4a63.chunk.js"
   },
   {
     "revision": "94b29ac6d0ec426932e82da99c88b81c",
-    "url": "/mdiedricks/static/js/2.9fc6513b.chunk.js.LICENSE.txt"
+    "url": "/mdiedricks/static/js/2.dd2b4a63.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc9261c6fe7af30ac853",
-    "url": "/mdiedricks/static/js/main.6faa80ac.chunk.js"
+    "revision": "e9ca2a33e83876d7da00",
+    "url": "/mdiedricks/static/js/main.ed0fd20a.chunk.js"
   },
   {
     "revision": "e0896222d3cbc938d4e5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "989c4b5a5b42056db61501857ffb3610",
     "url": "/mdiedricks/static/media/arduino.989c4b5a.svg"
+  },
+  {
+    "revision": "8156b4334522e5b5e1c02e801e0543a0",
+    "url": "/mdiedricks/static/media/cowandr.8156b433.png"
   },
   {
     "revision": "3043ea9d47a551dd7bb7fd930110dbc5",
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2e00336c3f4583a92e1a198b7cedc32d",
     "url": "/mdiedricks/static/media/python.2e00336c.svg"
+  },
+  {
+    "revision": "66f1398feec1e7ea90d586225b0330cd",
+    "url": "/mdiedricks/static/media/questlog.66f1398f.png"
   },
   {
     "revision": "97bc7b45b666aae00d74f7d44fa40b2c",
