@@ -21,8 +21,7 @@ export default function Projects(props) {
                 <h5>description</h5>
                 <p>{e.description}</p>
                 <h5>challenges</h5>
-                <p>{e.challenges}</p>
-                {/* <p><a href={e.liveVersion}>Try it out!</a></p> */}
+                <p>{e.challenges}</p>  
             </div>
         </div>
     ))

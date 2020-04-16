@@ -4,16 +4,6 @@
   Master Styles
   Author: Michael Diedricks (michael.diedricks@gmail.com)
 
-  === COLORS ===
-  Text gray: #76797b
-  Hover colors: 
-    green 1 - #a7ff83
-    green 2 - #17b978
-    green 3 - #086972
-    green 4 - #071a52
-
-
-
 /* GLOBAL SETTINGS */
 :root{
   --green1: #a7ff83;
@@ -509,6 +499,9 @@ footer{
   #p4{
     display: none;
   }
+  #p5{
+    display: none;
+  }
 
   .toggle-title{
     padding: 0.1rem 2rem;
@@ -569,7 +562,11 @@ footer{
   #p4{
     display: flex;
   }
+  #p5{
+    display: flex;
+  }
 }
+
 
 
 
