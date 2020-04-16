@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d950fde5bba82b5381e8434d685b1566",
+    "revision": "351f60addb02551bb1a03a30e007bd94",
     "url": "/mdiedricks/index.html"
   },
   {
-    "revision": "68e0c31f850464ed9128",
-    "url": "/mdiedricks/static/css/main.0dd10703.chunk.css"
+    "revision": "1a78fc6c6ea5a8454e30",
+    "url": "/mdiedricks/static/css/main.054898cd.chunk.css"
   },
   {
-    "revision": "94cea5671acbe21ed8e5",
-    "url": "/mdiedricks/static/js/2.dd2b4a63.chunk.js"
+    "revision": "cb67ca29664930152964",
+    "url": "/mdiedricks/static/js/2.78cc61ab.chunk.js"
   },
   {
     "revision": "94b29ac6d0ec426932e82da99c88b81c",
-    "url": "/mdiedricks/static/js/2.dd2b4a63.chunk.js.LICENSE.txt"
+    "url": "/mdiedricks/static/js/2.78cc61ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68e0c31f850464ed9128",
-    "url": "/mdiedricks/static/js/main.60de5833.chunk.js"
+    "revision": "1a78fc6c6ea5a8454e30",
+    "url": "/mdiedricks/static/js/main.19b0c748.chunk.js"
   },
   {
     "revision": "e0896222d3cbc938d4e5",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mdiedricks/static/media/nodejs.05108f13.svg"
   },
   {
+    "revision": "742d71e343690d36d7721581f1aeb7ad",
+    "url": "/mdiedricks/static/media/philips.742d71e3.png"
+  },
+  {
     "revision": "6304ccbbd27ec98ea1e676db1deeabc6",
     "url": "/mdiedricks/static/media/postgresql.6304ccbb.svg"
   },
@@ -82,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "03bc6380d73e7b5177b375cbd9e91f73",
     "url": "/mdiedricks/static/media/typescript.03bc6380.svg"
+  },
+  {
+    "revision": "38d90b39797de724679f90887d35aa06",
+    "url": "/mdiedricks/static/media/weatherapp.38d90b39.png"
   },
   {
     "revision": "a75e17ebe4597dbc7e9dca40e5a5d241",
