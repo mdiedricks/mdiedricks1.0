@@ -9,6 +9,8 @@ import About from './components/About'
 import ticTac from './assets/tictactoe.png'
 import cowandr from './assets/cowandr.png'
 import questlog from './assets/questlog.png'
+import philips from './assets/philips.png'
+import weatherapp from './assets/weatherapp.png'
 
 function App() {
   const [currentProject, setCurrentProject] = useState(1);
@@ -23,7 +25,7 @@ function App() {
       technologies: ["logo-javascript"],
       link: "https://github.com/mdiedricks/sundancer",
       liveVersion: '',
-      image: cowandr
+      image: weatherapp
     }
     ,{
       title: 'Philips Dynalite - JS Module',
@@ -34,7 +36,7 @@ function App() {
       technologies: ["logo-javascript"],
       link: "https://github.com/mdiedricks/philips-dynalite",
       liveVersion: '',
-      image: cowandr
+      image: philips
     }
     ,{
         title: 'CoWandr - Work in Progress',
