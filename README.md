@@ -1,33 +1,17 @@
-## Purpose
+# mdiedricks - Archived Portfolio
+> This project is a personal portfolio website bootstrapped with Create React App.
 
-This project is a personal portfolio website bootstrapped with Create React App.
+## Table of Contents
+* [General Information](#general-information)
+* [Technology Used](#technology-used)
+* [Project Status](#project-status)
+* [Acknowledgements](#acknowledgements)
+
+## General Information
 A quick build to showcase a few of my web development projects and connect visitors to my social accounts.
 
-## Hosting and Deployment
-
-The project is hosted via github pages using npm package gh-pages.
-Page is hosted from the gh-pages branch - not the master branch.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm run predeploy`
-
+## Tecnology Used
 Runs gh-pages packaging scripts - this includes npm `run build`.
 
-### `npm run deploy`
-
-This runs deployment to gh-pages branch of github.
-
-
-
-
-
-
-
+## Project Status
+This project has been archived and likely won't be updated again.
